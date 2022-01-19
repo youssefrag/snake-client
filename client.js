@@ -16,10 +16,6 @@ const connect = function () {
     // }, 5000);
   })
 
-  conn.on('data', () => {
-    console.log('you ded cuz you idled')
-  })
-
   return conn;
 };
 
