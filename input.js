@@ -15,12 +15,16 @@ const handleUserInput = function (key) {
     process.exit();
   } else if (key === 'a') {
     connection.write('Move: left')
+    connection.write('Say: Go long')
   } else if (key === 's') {
     connection.write('Move: down')
+    connection.write('Say: Who the best')
   } else if (key === 'd') {
     connection.write('Move: right')
+    connection.write('Say: SNAKE KING')
   } else if (key === 'w') {
     connection.write('Move: up')
+    connection.write('Say: got nothing on me')
   }
 }
 
